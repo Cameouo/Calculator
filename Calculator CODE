@@ -1,0 +1,25 @@
+N1 = input("1 Number ")
+N2 = input("2 Number ")
+
+N1 = float(N1)
+N2 = float(N2)
+
+Op = input("Operation ")
+
+if Op == "+":
+    print(N1+N2)  # <---- ADDITION
+elif Op == "-":
+    print(N1-N2)  # <-----SUBTRACTION
+elif Op == "*":
+    print(N1*N2)  # <-----MULTIPLICATION
+elif Op == "/":
+    print(N1/N2)  # <-----DIVISION
+elif Op == "//":  # ADVANCED CALCULATIONS
+    print(N1//N2) # <-----FLOOR DIVISION
+elif Op == "**":
+    print(N1**N2) # <-----EXPONENT
+elif Op == "%":
+    print(N1%N2)  # <-----MODULUS
+else:
+    print("Maybe Try Something in my capabilities?")
+    print("Operations:- + , - , * , / , // , ** ,% ")
